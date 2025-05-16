@@ -15,7 +15,7 @@ import {
   Building,
   BellRing,
   Cpu,
-  FlashIcon,
+  Zap,
   Fan
 } from 'lucide-react';
 
@@ -57,7 +57,7 @@ const Services = () => {
     {
       title: "Emergency Lighting",
       description: "Installation and maintenance of emergency lighting systems to meet safety regulations.",
-      icon: <FlashIcon size={24} />
+      icon: <Zap size={24} />
     },
     {
       title: "Commercial Maintenance",
